@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Default.aspx" title="Home" description="Go To The HomePage" >
+    </siteMapNode>
+    <siteMapNode url="~/ContentPages/Decoy.aspx" title="Psy101" description="A Brief Course Description" >
+    </siteMapNode>
+    <siteMapNode url="~/ContentPages/ContentPages.aspx" title="Objectives" description="Course Objectives" >
+      <siteMapNode url="~/ContentPages/Introductions.aspx" title="Say Hi!" description="List for Meeting New People and Clubs" />
+      <siteMapNode url="~/ContentPages/BucketList.aspx" title="College Bucket List" description="List with check boxes of things to do before graduating" />
+      <siteMapNode url="~/ContentPages/Sick.aspx" title="Under the Weather?" description="Tips and Links if you're feeling sick" />
+      <siteMapNode url="~/ContentPages/Smile.aspx" title="Just Smile" description="Images and other Positive Content" />
+      <siteMapNode url="~/ContentPages/Pledge.aspx" title="Pledge" description="Pledge for User to Make for them" />
+    </siteMapNode>
+    <siteMapNode url="~/ContentPages/ContactMe.aspx" title="Contact Me" description="Contact Form to fill out to reach me" >
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

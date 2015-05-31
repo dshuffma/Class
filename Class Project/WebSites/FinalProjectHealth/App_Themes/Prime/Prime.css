@@ -1,0 +1,99 @@
+﻿/*
+File: Prime.css
+Contents: Structure and color theme for Site
+Author Name: Daniel Huffman
+Created on: 4/27/2012
+Last Modifier: Daniel Huffman
+Last Date Modified: 4/29/2012
+Assignment: Final Project
+Part of: FinalProjectHealth, HealthMasterPage.master
+*/
+
+#Header
+{
+    color: #7D110C;
+    background-color: #000000;
+    width: 844px;
+    height: 83px;
+}
+*
+{
+    font-family: Arial;
+    text-align: left;
+    margin-left: 3px;
+}
+
+body
+{
+/*
+Clears white space around the body and assigns it BodyBackground.jpg as the background image.
+The image is repeated once horizontally, so the remaining background gets #b3e2e7 as its color.
+*/
+margin: 0;
+background-image: url(Images/BodyBackground.jpg);
+background-repeat: repeat-x;
+background-color: #7D110C;
+}
+
+h1
+{
+font-size: 20px;
+}
+#PageWrapper
+{
+width: 844px;
+}
+#MenuWrapper
+{
+width: 844px;
+}
+#MainContent
+{
+width: 644px;
+float: left;
+color: #F8F3D2
+}
+#Footer
+{
+border: 2px dashed black;
+color: #7D110C;
+background-color: #000000;
+width: 844px;
+clear: both;
+}
+
+.MainMenu
+{
+    border: 1px solid white;
+    width: 838px;
+    height: 19px;
+    background-color : #F8F3D2;
+}
+.StaticMenuItemStyle, .StaticMenuItemStyle a
+{
+color: #F8F3D2;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+padding-left: 2px;
+}
+.StaticHoverStyle, .StaticSelectedStyle
+{
+background-color: #7D110C;
+}
+.DynamicMenuItemStyle
+{
+color: #7D110C;
+font-size: 14px;
+background-color: #F8F3D2;
+padding: 4px 2px 4px 3px;
+}
+.DynamicHoverStyle
+{
+background-color: #F8F3D2;
+color: White;
+}
+.DynamicHoverStyle a
+{
+text-decoration: none;
+}

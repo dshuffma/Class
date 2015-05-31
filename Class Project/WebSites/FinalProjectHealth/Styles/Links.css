@@ -1,0 +1,22 @@
+﻿body {
+}
+
+a:link
+{
+    color: #034af3;
+}
+
+a:visited
+{
+    color: #20df36;
+}
+a:hover
+{
+    color: #034af3;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}

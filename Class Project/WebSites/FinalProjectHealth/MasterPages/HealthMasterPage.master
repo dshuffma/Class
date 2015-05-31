@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HealthMasterPage.master.cs" Inherits="MasterPages_HealthMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+File: HealthMasterPage.master
+Contents: Page with structure to website. It applies to all other pages and a change on here applies
+to all of the others.
+Author Name: Daniel Huffman
+Created on: 4/27/2012
+Last Modifier: Daniel Huffman
+Last Date Modified: 4/29/2012
+Assignment: Final Project
+Part of: FinalProjectHealth, BucketList.aspx, Decoy.aspx, Introductions.aspx, Pledge.aspx, Sick.aspx, Smile.aspx
+         ContactMe.aspx, Default.aspx, ContentPages.aspx
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- <link href="../App_Themes/Main/Prime.css" rel="stylesheet" type="text/css" /> -->
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+        }
+        .style2
+        {
+            color: #000000;
+            border-style:dotted;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <div id="Header" class="style1"><strong>Indiana University&#39;s Open Arms, Laughs, and 
+            Necessities</strong></div>
+        <div id="MenuWrapper">
+            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" 
+                DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
+                StaticEnableDefaultPopOutImage="False">
+                <DynamicHoverStyle CssClass="MainMenu" />
+                <DynamicMenuItemStyle CssClass="MainMenu" />
+                <StaticHoverStyle CssClass="MainMenu" />
+                <StaticMenuItemStyle ItemSpacing="10px" />
+                <StaticSelectedStyle CssClass="MainMenu" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                ShowStartingNode="False" />
+        </div>
+        <div id="MainContent">
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+       <!-- <div id="Sidebar">Sidebar Goes Here</div> -->
+        <div id="Footer" class="style2">For further infromation, please leave a message in the &quot;Contact Me&quot; 
+            section and replies will be prompt as possible.</div>
+    </div>
+    </form>
+</body>
+</html>

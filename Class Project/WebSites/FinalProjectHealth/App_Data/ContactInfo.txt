@@ -1,0 +1,35 @@
+﻿
+/// <summary>
+/// File: ContactInfo.txt
+/// Contents: All information submitted through the Contact Me page goes here.
+/// Author Name: Daniel Huffman
+/// Created on: 4/28/2012
+/// Last Modifier: Daniel Huffman
+/// Last Date Modified: 4/28/2012
+/// Assignment: Final Project
+/// Part of: FinalProjectHealth, ContactMe.aspx, ContactForm.ascx.cs
+/// </summary>
+
+NEW CONTACT:
+Name:Daniel Huffman
+E-Mail Address:ds@indiana.edu
+Confirmed E-Mail:ds@indiana.edu
+Message:This message is to test that it works given the full path.
+
+NEW CONTACT:
+Name:Daniel
+E-Mail Address:t@indian.edu
+Confirmed E-Mail:t@indian.edu
+Message:maybe?
+
+NEW CONTACT:
+Name:da
+E-Mail Address:sd@in.com
+Confirmed E-Mail:sd@in.com
+Message:a
+
+NEW CONTACT:
+Name:d
+E-Mail Address:d@a.n
+Confirmed E-Mail:d@a.n
+Message:sasd
